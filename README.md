@@ -9,6 +9,15 @@ Simple wrapper of SrcML for Pharo
 1. Install XMLParser and XPath from the Pharo catalog.
 1. Run the tests of the package.
 
+## Installation
+
+```Smalltalk
+Metacello new
+    baseline: 'SrcML-PharoWrapper';
+    repository: 'github://andreina-covi/SrcML-PharoWrapper/src';
+    load.
+```
+
 ## How to use
 
 There are two use modes of this wrapper.
