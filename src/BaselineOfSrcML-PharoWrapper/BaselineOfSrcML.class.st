@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfSrcML,
 	#superclass : #BaselineOf,
-	#category : #BaselineOfSrcML
+	#category : #'BaselineOfSrcML-PharoWrapper'
 }
 
 { #category : #baselines }
