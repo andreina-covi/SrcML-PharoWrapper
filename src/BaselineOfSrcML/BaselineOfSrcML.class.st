@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfSrcML,
 	#superclass : #BaselineOf,
-	#category : #'BaselineOfSrcML-PharoWrapper'
+	#category : #BaselineOfSrcML
 }
 
 { #category : #baselines }
@@ -16,5 +16,7 @@ BaselineOfSrcML >> baseline: spec [
 			spec
 				baseline: 'XPath'
 				with: [ spec repository: 'github://pharo-contributions/XML-XPath/src' ].
-			spec package: 'SrcML' with: [ spec requires: #('XPath' 'OSSubprocess') ] ]
+			spec
+				package: 'SrcML'
+				with: [ spec requires: #('OSSubprocess' 'XPath') ] ]
 ]
